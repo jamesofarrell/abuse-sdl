@@ -1,1 +1,0 @@
-smallfnt.o: smallfnt.cpp

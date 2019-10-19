@@ -1,1 +1,0 @@
-fnt6x13.o: fnt6x13.cpp
