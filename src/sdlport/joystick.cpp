@@ -50,8 +50,8 @@ void joy_poll(int &x, int &y)
 
 	SDL_JoystickUpdate();
 
-	int tx = SDL_JoystickGetAxis(joystick, 0),
-			ty = SDL_JoystickGetAxis(joystick, 1);
+	int tx = SDL_JoystickGetAxis(joystick, 2),
+			ty = SDL_JoystickGetAxis(joystick, 3);
 
 	if ((abs(ty) > 512) || (abs(tx) > 512))
 	{

@@ -208,7 +208,7 @@
 	 (setq level_size "Level size")
                            ; 012345678901234567 (please keep same allignment of Name level & total)
 	 (setq score_header "Name              Level Total")   ; V-E
-	 (setq space_cont "Press Y to continue")        ; V-E
+	 (setq space_cont "Press up to continue")        ; V-E
 	 (setq no_saved "No saved game")
 
 	 (setq lvl_2   "Small") ; V-C added
@@ -228,22 +228,22 @@
                    ;   0123456789012345678901234567890123456789012345678901234567890123456789
 		   ;  "--------------------------------------------------------------------"  ; V-A
 		   ; Please keep all strings below shorter than the above line.               ; V-A
-		   (0 "Aim with the analog, fire with the RIGHT SHOULDER")
+		   (0 "Aim with the right analog, fire with R1")
 		   ;(0 "Aim gun with analog, fire with the RIGHT SHOULDER") XXX: Mac Abuse
 		   (1 "Collect ammo to increase the firing speed")
-                   (2 "Press the B key to activate objects. This is a switch.")
-		   (3 "This console saves the state of the game, press B")
-		   (4 "Press B to activate platform")
-		   (5 "Hold down the LEFT SHOULDER to use special powers")
-		   (6 "Use the LEFT & RIGHT buttons to select weapons")
+                   (2 "Press down to activate objects. This is a switch.")
+		   (3 "This console saves the state of the game, press down")
+		   (4 "Press down to activate platform")
+		   (5 "Hold L1 to use special powers")
+		   (6 "Use the L2 & R2 buttons to select weapons")
 		   ;(5 "You can now use the special key to use your special powers") XXX: Mac Abuse
 		   ;(6 "You can now select weapons with the selection keys") XXX: Mac Abuse
-		   (7 "Press the Y to climb ladders")
-		   (8 "Press the B to start!")
+		   (7 "Press up to climb ladders")
+		   (8 "Press down to start!")
 
 		   (9 "Shoot hidden walls to destroy them")
 		   (10 "Shoot the switch ball to activate")
-		   (11 "Press B to teleport")
+		   (11 "Press down to teleport")
 		   ))
 
 	 (setq not_there       "This game has stopped running")

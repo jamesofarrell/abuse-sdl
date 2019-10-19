@@ -382,16 +382,16 @@ void setup(int argc, char **argv) {
 	keys.right = key_value("RIGHT");
 	keys.b3 = key_value("CTRL_R");
 	keys.b4 = key_value("INSERT");*/
-	keys.up = key_value("Space");
-	keys.down = key_value("ALT_L");
-	keys.left = key_value("SHIFT_L");
-	keys.right = key_value("CTRL_L");
+	keys.up = key_value("UP");
+	keys.down = key_value("DOWN");
+	keys.left = key_value("LEFT");
+	keys.right = key_value("RIGHT");
 
 	keys.b1 = key_value("Tab");
 	keys.b2 = key_value("Backspace");
 
-	keys.b3 = key_value("LEFT");
-	keys.b4 = key_value("RIGHT");
+	keys.b3 = key_value("PAGEUP");
+	keys.b4 = key_value("PAGEDOWN");
 	scale = 1; // Default scale amount
 
 	// Display our name and version
